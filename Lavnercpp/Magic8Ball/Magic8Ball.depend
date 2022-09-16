@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1625514157 source:c:\users\kevin\onedrive\desktop\lavnercpp\magic8ball\main.cpp
+	<iostream>
+	<ctime>
+	<string>
+
