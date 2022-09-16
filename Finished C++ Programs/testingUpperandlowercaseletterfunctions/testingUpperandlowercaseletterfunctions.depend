@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1483387426 source:c:\users\admin\documents\c++ codeblocks\testingupperandlowercaseletterfunctions\main.cpp
+	<iostream>
+	<ctype.h>
+
+1483409131 source:c:\users\kevin\desktop\c++ codeblocks\testingupperandlowercaseletterfunctions\main.cpp
+	<iostream>
+	<ctype.h>
+
