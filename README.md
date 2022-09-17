@@ -1,2 +1,2 @@
 # LeetCodeStudy
-LeetCodeStudying
+Leetcode studying in Java
