@@ -55,3 +55,20 @@ class Solution1 {
 }
 
 //Time: O(logn) Space: O(1) 
+// ...01 & 010101101 is odd since 1 + even otherwise ...01 & 1011010 even so bit shift
+class Solution2 {
+    public int numberOfSteps(int num) {
+        int steps = 0;
+        while(num != 0){
+            if((num & 1) == 0){ //remember to incase binary operations in parenthesis
+                ++steps;
+                num >>= 1; 
+            }
+            else{
+                ++steps;
+                --num; 
+            }
+        }
+        return steps; 
+    }
+}
