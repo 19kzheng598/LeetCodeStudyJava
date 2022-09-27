@@ -27,7 +27,7 @@ Constraints:
 */
 
 //Time: O(n) Space: O(1)
-class Solution1 {
+class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> answer = new ArrayList<>(n); //resize auto 
         for(int i = 1; i <= n; ++i){
@@ -47,7 +47,7 @@ class Solution1 {
 }
 
 //Time: O(n) Space: O(1)
-class Solution2 {
+class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> answer = new ArrayList<>(n); 
         for(int i = 1; i <= n; ++i){
